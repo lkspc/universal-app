@@ -1,9 +1,9 @@
-image: Ubuntu
+stack: node 12
 
 install:
-- npm install
+- npm install -g yarn
 
 test_script:
-- npm test
+- yarn test
 
 build: off
